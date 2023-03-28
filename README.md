@@ -37,3 +37,32 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Nolan Naphys Portfolio</title>
+</head>
+
+<main>
+
+<body>
+   <header>
+    <nav>
+        <p> Nolan Naphys</p>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+</body>
+
+</main>
+</html> -->
