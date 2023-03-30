@@ -1,0 +1,135 @@
+:root {
+    --nav-bg: #051148;
+    background-color: #1d1d1d;
+    --font-color: white;
+}
+
+* {
+    box-sizing: border-box; 
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    margin: 0; 
+    line-height: 1.5;
+    list-style-type: none;
+ }
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    color: var(--font-color);
+    padding-left: 15px;
+ }
+
+ main {
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ aside{
+    color: var(--font-color);
+    font-size: large;
+    padding-left: 20px;
+ }
+
+ section{
+    color: var(--font-color);
+    font-size: large;
+    padding-left: 20px;
+ }
+
+ img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+
+ p{
+    color: var(--font-color);
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+ }
+
+nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bg);
+    padding: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+} 
+
+nav li:hover {
+    border-bottom: var(--font-color) 2px solid;
+}
+
+nav h1 {
+    font-size: medium;
+    padding: 10px 12px 10px 12px;
+    color: var(--nav-bg);
+    margin-left: -20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+footer {
+    width: 100vw;
+    background-color: var(--nav-bg);
+    padding: 20px;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+/* Styling for left align headers */
+.section-header {
+    border-right: #fff 2px solid;
+}
+
+#about-me-header {
+    display: flex;
+}
+
+#work-header {
+    display: flex
+}
+
+#contact-header {
+    display: flex
+}
+
+#projects {
+    display: flex
+}
+
+#github-link {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: var(--font-color);
+}
+
+#github-link:hover {
+    border-bottom: var(--font-color) 2px solid;
+}
