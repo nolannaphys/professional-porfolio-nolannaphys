@@ -27,7 +27,7 @@ header{
  main {
     font-size: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
  }
 
  aside{
@@ -115,27 +115,39 @@ footer a {
     font-size: 25px;
 }
 
-.box {
+.box-project {
     border: 1px solid black;
     background-color: var(--nav-bg);
     min-width: 30px;
     min-height: 30px; 
+    margin: 1%;
+}
+
+.project-images {
+    margin: 1%;
 }
 
 #about-me-header {
     display: flex;
+    justify-content: space-around;
+    margin: 1%;
 }
 
 #work-header {
-    display: flex
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
 }
 
 #contact-header {
-    display: flex
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
 }
 
 #projects {
-    display: flex
+    display: flex;
+    justify-content: space-around;
 }
 
 #github-link {
